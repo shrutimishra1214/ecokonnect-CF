@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly enzyme 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoints": Object {
+        "l": 800,
+        "m": 550,
+        "s": 450,
+        "xl": 950,
+        "xs": 350,
+        "xxl": 1200,
+      },
+      "colors": Object {
+        "forest": "#38a66d",
+        "lightForest": "#03b554",
+        "primary": "white",
+        "secondary": "black",
+      },
+      "fontFamily": Object {
+        "title": "Yanone Kaffeesatz, sans-serif",
+        "title2": "Raleway, sans-serif",
+      },
+      "fontSizes": Object {
+        "header": "16",
+        "subheader": "16",
+        "subtitle": "16",
+        "text": "16",
+        "title": "16",
+      },
+      "fontWeights": Object {
+        "bold": "700",
+        "light": "400",
+        "lighter": "300",
+        "normal": "500",
+      },
+      "query": Object {
+        "bigDesktop": [Function],
+        "bigMobile": [Function],
+        "desktop": [Function],
+        "mobile": [Function],
+        "smallDesktop": [Function],
+        "smallMobile": [Function],
+      },
+    }
+  }
+>
+  <Title />
+</ThemeProvider>
+`;
